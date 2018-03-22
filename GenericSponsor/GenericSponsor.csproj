@@ -122,17 +122,14 @@
     <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
     <Content Include="bin\roslyn\vbc.exe" />
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
-    <Content Include="Content\OwlCarousel\AjaxLoader.gif" />
-    <Content Include="Content\OwlCarousel\grabbing.png" />
-    <Content Include="Content\OwlCarousel\owl.carousel.css" />
-    <Content Include="Content\OwlCarousel\owl.theme.css" />
-    <Content Include="Content\OwlCarousel\owl.transitions.css" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-reboot.css" />
     <Content Include="css\bootstrap-reboot.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\owl.carousel.min.css" />
+    <Content Include="css\owl.theme.default.min.css" />
     <Content Include="img\about-bg.jpg" />
     <Content Include="img\about-mission.jpg" />
     <Content Include="img\about-plan.jpg" />
@@ -189,7 +186,6 @@
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
-    <Content Include="Scripts\owl.carousel.js" />
     <Content Include="Scripts\owl.carousel.min.js" />
     <Content Include="styles-Netflix-Hover.css" />
     <Content Include="styles.css" />
