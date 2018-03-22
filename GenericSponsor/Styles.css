@@ -1,7 +1,23 @@
 ﻿body{
 
 }
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
 
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.2em; /* 1.2x default size */
+    }
+}
+
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.8em; /* 0.8x default size */
+    }
+}
 
 /* Clients Section
 --------------------------------*/
@@ -48,12 +64,22 @@
 
 
 .section-header {
-    margin-bottom:100px;
+    margin-bottom:3em;
 }
 
 
 .head_title {
     margin-bottom: 40px;
+}
+
+.header-separator {
+    height: 1px;
+    width: 170px;
+    margin: auto;
+    background: #eeeeee;
+    position: relative;
+    margin-bottom: 3%;
+    margin-top: 2%;
 }
 
 .separator {
@@ -64,11 +90,55 @@
     position: relative;
 }
 
-
 .nav > li {
     position: relative;
     display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+@media only screen and (min-width:992px){
+    .section-header {
+        margin-bottom: 2em;
+    }
+
+    .nav > li {
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width:240px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .section-header {
+        margin-bottom: 2em;
+    }
+
+    .nav > li {
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .section-header {
+        margin-bottom: 2em;
+    }
+
+    .nav > li {
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 200px;
+    }
+}
+
 
 .logo-layout {
     margin-bottom:100px;
@@ -78,11 +148,22 @@
     width: 100%;
 }
 
-.btn.btn-info {
-    margin-top: 10%;
+.clients-details-layout {
+    margin-top: 3em;
 }
-
 .clients-details-layout img{
     margin-left:15%;
     margin-right:auto;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
+
+
+
+.btn.btn-info {
+    margin-top: 5%;
 }
